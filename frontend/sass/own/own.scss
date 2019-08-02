@@ -1,0 +1,25 @@
+@import "test";
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: #000C75;
+  transition: all .2s ease-in-out;
+  &:hover {
+    color: #00084d;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.text-default {
+  text-transform: none !important;
+}

@@ -1,0 +1,259 @@
+extends ../layout/main
+include ../mixins/mixins
+
+block title
+    | about
+
+block content
+    .header.header_mt
+        .header-menu.header-menu_mr
+            ul.navbar-nav
+                li.nav-li
+                    a.nav-link(href="#")
+                        +svg('hamburger','bars')
+                li.nav-li
+                    a.nav-link(href="#") Clients
+                li.nav-li
+                    a.nav-link(href="#") News
+
+
+        .header-logo
+            h1.title-h1 mitalent
+        .header-search.header-search_mr
+            a(href="#")
+                +svg('search-svg','search')
+
+    .content.content_mb
+        .content-img
+            img.w-100(src="https://picsum.photos/id/102/768/1024")
+            .soc-icon
+                a(href="")
+                    +svg('soc-block','facebook')
+                a(href="")
+                    +svg('soc-block','instagram')
+                a(href="")
+                    +svg('soc-block','youtube')
+                a(href="")
+                    +svg('soc-block','twitter')
+
+            a(href="").contact-wrap.contact-wrap_left
+                .contact-wrap__btn
+                    p.contact-wrap__btn-lead CONTact us
+                .contact-wrap__icon
+                    +svg('contact-icon','user')
+
+
+        .content-about.justify-content-between
+            .content-about__text
+                h2.title-h2.title-h2_mb Developing the best talent in the comedy & entertainment business.
+                p.lead.lead_mb Our client list is drawn from the competitive world of stand-up comedy and our boutique, focused company works closely with them to develop talents learned on the circuit into the skills needed for a long-lasting career performing and writing for television, radio and film.
+                p.lead Our client list is drawn from the competitive world of stand-up comedy and our boutique, focused company works closely with them to develop talents. Learned on the circuit into the skills needed for a long-lasting career performing and writing for television, radio and film.
+
+            .content-about__quote
+                p.content-about__quote-item
+                    span.display-bolditalic Motivation&nbsp;
+                    span.diplay-regular Is The First Step To&nbsp;
+                    span.display-bolditalic Success
+
+
+        .content-blank
+
+
+    .gallery
+        ul.tabs
+            li.tab-link.current(data-tab='tab-1') ACTOR
+            li.tab-link(data-tab='tab-2') MUSICIAN
+            li.tab-link(data-tab='tab-3') COMEDIAN
+            li.tab-link(data-tab='tab-4') MODEL
+
+
+
+        #tab-1.tab-content.current
+            .owl-carousel.about-slider-1
+                .talent-slider__item
+                    img(src="img/common/talent1.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent2.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent3.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent4.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent5.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+        #tab-2.tab-content
+            .owl-carousel.about-slider-2
+                .talent-slider__item
+                    img(src="img/common/talent6.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent7.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent8.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent1.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent2.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+
+
+        #tab-3.tab-content
+            .owl-carousel.about-slider-3
+                .talent-slider__item
+                    img(src="img/common/talent3.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent4.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent5.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent6.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent7.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+        #tab-4.tab-content
+            .owl-carousel.about-slider-4
+                .talent-slider__item
+                    img(src="img/common/talent8.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent1.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent2.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent3.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+                .talent-slider__item
+                    img(src="img/common/talent4.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')

@@ -1,0 +1,76 @@
+extends ../layout/main
+include ../mixins/mixins
+
+block title
+    | contact
+
+block content
+    .header.header_mt
+        .header-menu.header-menu_mr
+            ul.navbar-nav
+                li.nav-li
+                    a.nav-link(href="#")
+                        +svg('hamburger hamburger_white','bars')
+                li.nav-li
+                    a.nav-link.nav-link_white(href="#") Clients
+                li.nav-li
+                    a.nav-link.nav-link_white(href="#") News
+
+
+        .header-logo
+            h1.title-h1 mitalent
+        .header-search.header-search_mr
+            a(href="#")
+                +svg('search-svg','search')
+
+    .content.content_mb
+        .content-img
+            img.w-100(src="https://picsum.photos/id/102/768/1024")
+
+
+            a(href="").contact-wrap.contact-wrap_right
+                .contact-wrap__btn
+                    p.contact-wrap__btn-lead get directions
+                .contact-wrap__icon
+                    +svg('contact-icon','map')
+
+            .content-img__text
+                h1.content-img__text-headline Contact us __
+                span.content-img__text-span mass impressions
+
+
+        .content-about
+            .content-about__text
+                h2.title-h2.title-h2_mb we would love to hear from you, whether you want more information on any of our acts or wish to discover how our artists can support your event.
+                    span our acts or wish to discover how our artists can support your event.
+
+
+
+                .content-contact
+                    .contact-info.contact-info_mb.pr-25
+                        .contact-info__svg
+                            +svg('contact-svg','home')
+
+                        .contact-info__text
+                            span.contact-info__span 79 - 81 Berkeley Square
+                            span.contact-info__span London
+                            span.contact-info__span WC923 9TT
+
+
+                    .contact-info.contact-info_mb.pl-25
+                        .contact-info__svg
+                            +svg('contact-svg','phone')
+
+                        .contact-info__text
+                            span.contact-info__span +44 (0) 234 567 8910
+                            span.contact-info__span +44 (0) 234 567 8910
+
+                    .content-contact.pr-25
+                        .contact-info
+                            .contact-info__svg
+                                +svg('contact-svg','envelope')
+
+                            .contact-info__text
+                                span.contact-info__span hello@mitalent.com
+
+        .content-blank.content-blank_center

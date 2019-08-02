@@ -1,0 +1,278 @@
+CSS Animation
+
+.block {
+    animation-name: block_animation;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; // normal | reverse | alternate | alternate-reverse
+    animation-timing-function: ease-in-out; // cubic-bezier(.38,-1.29,1,-0.53)
+    animation-play-state: paused;
+}
+
+@keyframes block_animation {
+  0%   {
+    left: 0;
+  }
+
+  100% {
+    left: 1000px;
+  }
+}
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+div {
+    transform: skew(20deg); // skewY(20deg)
+    transform: scale(2, 3);   // scaleY(1.5)
+    transform: rotate(20deg); // -20deg
+    transform: translate(-50%, -50%);
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+div {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+Extra small < 576px
+Small ≥ 576px
+Medium ≥ 768px
+Large ≥ 992px
+Extra large ≥1200px
+
+--------------------------------------------------------------------------------------------
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+--------------------------------------------------------------------------------------------
+
+https://picsum.photos/images
+https://picsum.photos/800/600?image=144
+http://i.pravatar.cc/250?img=13
+https://jsonplaceholder.typicode.com/
+
+--------------------------------------------------------------------------------------------
+input {
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #999999;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #999999;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #999999;
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+.slider-articles {
+  .item {
+   overflow: hidden;
+  }
+    img {
+        transition: all .2s ease-in-out;
+        &:hover {
+             transform: scale(1.1);
+    }
+  }
+}
+
+--------------------------------------------------------------------------------------------
+
+box-shadow: 10px 10px 5px grey;
+
+--------------------------------------------------------------------------------------------
+
+a.phone__anchor(href="tel:+994777654321")
+
+--------------------------------------------------------------------------------------------
+
+.container {
+    color: #999999;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-6 {
+    position: relative;
+    // width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+// mod-row
+// mod-container
+
+--------------------------------------------------------------------------------------------
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+---------------------------------------------------------------------------------------------
+
+each val in [1, 2, 3, 4]
+    - var num = val + 100
+        img.block__img(src='https://picsum.photos/350/500?image=' + num)
+
+------------------------------------------------
+
+each val in [1, 2]
+
+ul(class='nav__menu-lists nav__menu--2-lists')
+    each val in ['Etiam', 'Lectus', 'Netus', 'Dictum', 'Nibh']
+        li(class='nav__menu-items')
+            a(href="#")= val
+
+---------------------------------------------------------------------------------------------
+
+блок
+block, unit, bloc, pulley, sheave, bowl
+
+колодка
+block, shoe, last, cheek, clog, shoe-tree
+
+квартал
+quarter, block, section, square
+
+блокировка
+locking, blocking, block, interlocking, blockage, block system
+
+глыба
+lump, block, clump, cob, clod, mammock
+
+брусок
+bar, block, rail, stick, brick, cake
+
+массив
+massif, solid, block
+
+кубик
+block, tessera
+
+брус
+beam, timber, bar, cant, rod, block
+
+шашка
+checker, sword, saber, block, man, counter
+
+препятствие
+let, obstacle, obstruction, barrier, hurdle, block
+
+колода
+deck, pack, log, block, chump, wood block
+
+чурбан
+chump, block, log, lump, chunk, billet
+
+плаха
+block, scaffold
+
+преграда
+block, barrier, hedge, wall, bar, barricade
+
+бревно
+log, beam, timber, block, stock, baulk
+
+затор
+congestion, mash, traffic jam, logjam, block, jamming
+
+шкив
+pulley, sheave, block, gin
+
+кубики
+block
+
+блокнот
+notebook, notepad, pad, scratchpad, tablet, block
+
+ролик
+roller, roll, pulley, castor, caster, block
+
+болван
+boob, blockhead, doodle, dummy, loggerhead, block
+
+блокпост
+blockhouse, post, block, cabin, block station, signal-box
+
+целик
+pillar, block, rib, cramp, stump
+
+масса однородных предметов
+block
+
+чурка
+chock, block
+
+строитель
+builder, constructor, erector, block
+
+жилищный массив
+block
+
+башка
+chump, noggin, pate, twopenny, noddle, block
+
+казнь на плахе
+block
+
+деревянная печатная форма
+block
+
+форма
+form, shape, mold, uniform, format, block
+
+группа однородных предметов
+block, nest
+
+камень кулисы
+block
+
+сплошная масса
+block
+
+тупица
+jerk, dunce, dullard, schmuck, bonehead, block
+
+блок-участок
+block
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+mixin list(blockName, ...items)
+    ul(class= blockName + '__list')
+        each item in items
+            li(class= blockName + '__item')
+                a(href="#", class= blockName + '__link')= item
+
+mixin menu(blockClassName, itemClassName, linkClassName, ...items)
+    ul(class= blockClassName)
+        each item in items
+            li(class= itemClassName)
+                a(href="#", class= linkClassName)= item
+
+mixin menuDocument(blockName, ...items)
+    ul(class= blockName + '__list')
+        each item in items
+            li(class= blockName + '__item')
+                a(href="#", class= blockName + '__link')= item
+
+
+mixin article(title)
+    .article
+        .article-wrapper
+            h1= title
+            if block
+                block
+            else
+                p No content provided
+
+mixin blockquote(text)
+    blockquote.blockquote= text
+
+mixin svg(className, icon)
+    svg(class= className)
+        use(xlink:href='sprite/symbol/sprite.svg#' + icon)

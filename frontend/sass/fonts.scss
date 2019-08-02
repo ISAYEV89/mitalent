@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/FontAwesome/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),
+  url("../fonts/FontAwesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+  url("../fonts/FontAwesome/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+  url("../fonts/FontAwesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+  url("../fonts/FontAwesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span.azn {
+  font-family: "JISAZNRegular";
+  font-size: 16px;
+  margin-left: 5px;
+  &_bold {
+    font-weight: bold;
+  }
+}
+
+@font-face {
+  font-family: "JISAZNRegular";
+  src: url("../fonts/jaznr/jaznr.eot");
+  src: url("../fonts/jaznr/jaznr.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/jaznr/jaznr.woff") format("woff"),
+  url("../fonts/jaznr/jaznr.ttf") format("truetype"),
+  url("../fonts/jaznr/jaznr.svg#jaznr") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Nunito-Black';
+  src: url('../fonts/Nunito_Black/Nunito-Black.eot');
+  src: url('../fonts/Nunito_Black/Nunito-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Nunito_Black/Nunito-Black.woff2') format('woff2'),
+  url('../fonts/Nunito_Black/Nunito-Black.woff') format('woff'),
+  url('../fonts/Nunito_Black/Nunito-Black.ttf') format('truetype'),
+  url('../fonts/Nunito_Black/Nunito-Black.svg#Nunito-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url('../fonts/Nunito_Bold/Nunito-Bold.eot');
+  src: url('../fonts/Nunito_Bold/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Nunito_Bold/Nunito-Bold.woff2') format('woff2'),
+  url('../fonts/Nunito_Bold/Nunito-Bold.woff') format('woff'),
+  url('../fonts/Nunito_Bold/Nunito-Bold.ttf') format('truetype'),
+  url('../fonts/Nunito_Bold/Nunito-Bold.svg#Nunito-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito-ExtraBold';
+  src: url('../fonts/Nunito_ExtraBold/Nunito-ExtraBold.eot');
+  src: url('../fonts/Nunito_ExtraBold/Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Nunito_ExtraBold/Nunito-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Nunito_ExtraBold/Nunito-ExtraBold.woff') format('woff'),
+  url('../fonts/Nunito_ExtraBold/Nunito-ExtraBold.ttf') format('truetype'),
+  url('../fonts/Nunito_ExtraBold/Nunito-ExtraBold.svg#Nunito-ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('../fonts/Nunito_Regular/Nunito-Regular.eot');
+  src: url('../fonts/Nunito_Regular/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Nunito_Regular/Nunito-Regular.woff2') format('woff2'),
+  url('../fonts/Nunito_Regular/Nunito-Regular.woff') format('woff'),
+  url('../fonts/Nunito_Regular/Nunito-Regular.ttf') format('truetype'),
+  url('../fonts/Nunito_Regular/Nunito-Regular.svg#Nunito-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-BoldItalic';
+  src: url('../fonts/Playfair_Display_BoldItalic/PlayfairDisplay-BoldItalic.eot');
+  src: url('../fonts/Playfair_Display_BoldItalic/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Playfair_Display_BoldItalic/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+  url('../fonts/Playfair_Display_BoldItalic/PlayfairDisplay-BoldItalic.woff') format('woff'),
+  url('../fonts/Playfair_Display_BoldItalic/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+  url('../fonts/Playfair_Display_BoldItalic/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Playfair-Display-Regular';
+  src: url('../fonts/Playfair_Display_Regular/PlayfairDisplay-Regular.eot');
+  src: url('../fonts/Playfair_Display_Regular/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Playfair_Display_Regular/PlayfairDisplay-Regular.woff2') format('woff2'),
+  url('../fonts/Playfair_Display_Regular/PlayfairDisplay-Regular.woff') format('woff'),
+  url('../fonts/Playfair_Display_Regular/PlayfairDisplay-Regular.ttf') format('truetype'),
+  url('../fonts/Playfair_Display_Regular/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins_Light/Poppins-Light.eot');
+  src: url('../fonts/Poppins_Light/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Poppins_Light/Poppins-Light.woff2') format('woff2'),
+  url('../fonts/Poppins_Light/Poppins-Light.woff') format('woff'),
+  url('../fonts/Poppins_Light/Poppins-Light.ttf') format('truetype'),
+  url('../fonts/Poppins_Light/Poppins-Light.svg#Poppins-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins_Regular/Poppins-Regular.eot');
+  src: url('../fonts/Poppins_Regular/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Poppins_Regular/Poppins-Regular.woff2') format('woff2'),
+  url('../fonts/Poppins_Regular/Poppins-Regular.woff') format('woff'),
+  url('../fonts/Poppins_Regular/Poppins-Regular.ttf') format('truetype'),
+  url('../fonts/Poppins_Regular/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+

@@ -1,0 +1,260 @@
+extends ../layout/main
+include ../mixins/mixins
+
+block title
+    | news
+
+block content
+    .news
+        .news-main
+            .news-gallery.owl-carousel.news-gallery
+                img.w-100(src="img/common/pict4.jpg")
+                img.w-100(src="img/common/pict4.jpg")
+                img.w-100(src="img/common/pict4.jpg")
+            .news-blanck
+
+
+            .news-wrap.news-wrap_mb
+
+                .news-header
+                    .news-header__logo
+                        h1.title-h1 mitalent
+                    .news-header__menu
+                        form.news-header__menu-search
+                            input(type='text', placeholder='search post', name='search')
+                            button(type='submit')
+                                +svg('search-svg','search')
+
+                        .news-header__menu-icon
+                            a(href="")
+                                +svg('hamburger','bars')
+
+                .news-wrap__left
+                    .owl-carousel.news-wrap-slider.news-wrap-slider_mb
+                        img.w-100(src="img/common/pict4.jpg")
+                        img.w-100(src="img/common/pict4.jpg")
+                        img.w-100(src="img/common/pict4.jpg")
+                        img.w-100(src="img/common/pict4.jpg")
+                    h3.title-h3.title-h3_mb Dream Interpretation Common Symbols And Their Meaningsd
+                    span.span-date 8 March, 2020
+
+
+
+
+                .news-wrap__right
+                    .news-wrap__right-item
+                        .news-wrap__right-img
+                            img.news-wrap__right-img(src="img/common/feed1.jpg")
+                        .news-wrap__right-post
+                            h3.title-h3.title-h3_mb Burning Desire Golden Key Or Red Herring
+                            span.span-date 8 March, 2020
+
+                    .news-wrap__right-item
+                        .news-wrap__right-img
+                            img.news-wrap__right-img(src="img/common/feed2.jpg")
+                        .news-wrap__right-post
+                            h3.title-h3.title-h3_mb Motivation Is The First Step To Success
+                            span.span-date 8 March, 2020
+                    .news-wrap__right-item
+                        .news-wrap__right-img
+                            img.news-wrap__right-img(src="img/common/feed1.jpg")
+                        .news-wrap__right-post
+                            h3.title-h3.title-h3_mb Burning Desire Golden Key Or Red Herring
+                            span.span-date 8 March, 2020
+                    .news-wrap__right-item
+                        .news-wrap__right-img
+                            img.news-wrap__right-img(src="img/common/feed2.jpg")
+                        .news-wrap__right-post
+                            h3.title-h3.title-h3_mb Motivation Is The First Step To Success
+                            span.span-date 8 March, 2020
+
+                .news-wrap__headline
+                    .news-wrap__headline-img
+                        img.w-100(src="img/common/pict2.jpg")
+                        .img-btn
+                            span.img-btn__lead trending
+                    .news-wrap__headline-post
+                        h3.title-h3.title-h3_mb_xl Motivation Is The First Step To Success
+                        span.span-date 8 March, 2020
+
+                .news-wrap-post.news-wrap-post_mb.pr-25
+                    .news-wrap-post__img
+                        img.w-100(src="img/common/pict2.jpg")
+                    .news-wrap-post__text
+                        h3.title-h3.title-h3_mb_xl 29 Motivational Quotes For Business And Other Work Environments
+                        span.span-date 8 March, 2020
+
+                .news-wrap-post.news-wrap-post_mb.pl-25
+                    .news-wrap-post__img
+                        img.w-100(src="img/common/pict2.jpg")
+                    .news-wrap-post__text
+                        h3.title-h3.title-h3_mb_xl 29 Motivational Quotes For Business And Other Work Environments
+                        span.span-date 8 March, 2020
+
+                .news-wrap-post.news-wrap-post_mb.pr-25
+                    .bg-black
+                        .position-absolute
+                            span.display-bolditalic Motivation&nbsp;
+                            span.diplay-regular Is The First Step To&nbsp;
+                            span.display-bolditalic Success
+
+                .news-wrap-post.news-wrap-post_mb.pl-25
+                    .news-wrap-post__img
+                        img.w-100(src="img/common/pict2.jpg")
+                    .news-wrap-post__text
+                        h3.title-h3.title-h3_mb_xl 29 Motivational Quotes For Business And Other Work Environments
+                        span.span-date 8 March, 2020
+
+                .pagination.pagination_mt
+                    a(href="").passiv
+                        +svg('pagination-svg-left','arrow-left')
+                        span.span-pagination prev post
+
+                    a(href="")
+                        span.span-pagination next post
+                        +svg('pagination-svg-right','arrow-right')
+
+
+        .news-client.news-client_mb
+            .news-client__headline
+                h1.title-as-h1 Our Clients
+
+            .news-client__info
+                p   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                a.btn-more(href="")
+                    span explore more
+                    +svg('pagination-svg-right','arrow-right')
+
+        .news-talent.news-talent_mb
+            .owl-carousel.talent-slider
+                .talent-slider__item
+                    img(src="img/common/talent1.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+
+                .talent-slider__item
+                    img(src="img/common/talent2.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent3.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent4.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent5.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent6.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent7.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent1.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent2.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img.w-100(src="img/common/talent3.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent4.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent5.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent6.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+                .talent-slider__item
+                    img(src="img/common/talent7.jpg")
+                    .talent-slider__name
+                        h4.title-h4.title-h4_mb Keith Ruiz
+                        span Comedian
+
+                    .talent-slider__link
+                        a(href="")
+                            +svg('arrow-link','arrow')
+
+
+

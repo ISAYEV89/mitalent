@@ -1,0 +1,16 @@
+@import "variables";
+@import "fonts";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "mixin";
+@import "common";
+@import "own/own";
+@import "components/owl-carousel/owl.theme.default";
+@import "components/owl-carousel/owl.carousel";
+@import "sections/header";
+@import "sections/footer";
+@import "components/logo";
+@import "components/menu";
+@import "sections/content";
+@import "sections/gallery";
+@import "sections/news";
+@import "sections/contact";
